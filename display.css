@@ -1,0 +1,110 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px;
+        }
+
+        form {
+            max-width: 650px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between; 
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        select {
+            flex: 1;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        #search{
+            margin-left: 10px;
+        }
+
+        input[type="text"] {
+            flex: 1; 
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 18px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-left: 1%;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 2px solid #ddd;
+            text-align: left;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #E5E4E2;
+        }
+
+        ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        @media screen and (min-width: 700px) {
+            main {
+                margin-left: 250px;
+            }
+        }
+
+        
+        .action-link {
+            display: inline-block;
+            padding: 8px 12px; 
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .edit-link {
+            background-color: #4CAF50; 
+            margin-right: 5px; 
+        }
+
+        .delete-link {
+            background-color: #f44336; 
+        }
+  
